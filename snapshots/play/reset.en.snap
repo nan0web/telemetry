@@ -1,0 +1,22 @@
+ℹ  8. Reset Counters 
+ℹ 
+ℹ Before reset:
+ℹ [telemetry] uptime: [UPTIME]
+  cache: 0 hits, 0 misses ([PCT]%)
+  changes: 0 total {}
+  fallbacks: 0
+ℹ 
+ℹ 
+ℹ After reset:
+ℹ [telemetry] uptime: [UPTIME]
+  cache: 0 hits, 0 misses ([PCT]%)
+  changes: 0 total {}
+  fallbacks: 0
+ℹ 
+ℹ 
+ℹ After 1 write + 1 read:
+ℹ [telemetry] uptime: [UPTIME]
+  cache: 1 hits, 0 misses ([PCT]%)
+  changes: 1 total {"set":1}
+  fallbacks: 0
+ℹ

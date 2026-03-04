@@ -1,0 +1,8 @@
+ℹ  1. Connect and Observe 
+ℹ 
+✓ Telemetry connected to main DB
+✓ Telemetry connected to cache DB
+ℹ 
+ℹ Both DB instances are now being observed.
+ℹ All cache / change / fallback events will be aggregated.
+ℹ

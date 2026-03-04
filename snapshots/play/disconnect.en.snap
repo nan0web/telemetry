@@ -1,0 +1,6 @@
+ℹ  7. Disconnect and Verify 
+ℹ 
+ℹ Changes before disconnect: 0
+ℹ After cacheDb write: 0 (unchanged = correct)
+✓ After mainDb write: 1 (+1 = correct)
+ℹ

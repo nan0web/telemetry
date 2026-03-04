@@ -1,0 +1,5 @@
+{
+	"ignore": ["src/README.md.js", "types/**", "examples/**", "play/**", "src/collectors/index.js"],
+	"ignoreDependencies": ["@nan0web/types", "@nan0web/log", "@nan0web/ui-cli", "@nan0web/db-fs"],
+	"entry": ["src/index.js"]
+}

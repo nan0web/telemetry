@@ -1,0 +1,52 @@
+{
+	"name": "@nan0web/telemetry",
+	"version": "0.1.0",
+	"description": "Observability layer for nan0web ecosystem. Collects, aggregates, and reports metrics from @nan0web/db.",
+	"main": "./src/index.js",
+	"types": "./types/index.d.ts",
+	"type": "module",
+	"files": [
+		"src/**/*.js",
+		"!src/**/*.test.js",
+		"!src/README.md.js",
+		"types/**/*.d.ts"
+	],
+	"scripts": {
+		"build": "tsc",
+		"test": "node --test --test-timeout=3333 \"src/**/*.test.js\"",
+		"test:docs": "node --test src/README.md.js",
+		"test:e2e": "node --test --test-timeout=30000 play/main.test.js",
+		"test:all": "npm run test && npm run test:docs && npm run test:e2e && npm run build && npm run knip && npm run audit",
+		"knip": "knip --production",
+		"audit": "pnpm audit --prod || true",
+		"precommit": "npm test",
+		"play": "node play/main.js"
+	},
+	"exports": {
+		".": {
+			"import": "./src/index.js",
+			"types": "./types/index.d.ts"
+		}
+	},
+	"keywords": [
+		"telemetry",
+		"observability",
+		"metrics",
+		"database",
+		"monitoring"
+	],
+	"author": "YaRaSLove (ЯRаСлав) <support@yaro.page>",
+	"license": "ISC",
+	"devDependencies": {
+		"@nan0web/db": "*",
+		"@nan0web/db-fs": "*",
+		"@nan0web/log": "*",
+		"@nan0web/test": "*",
+		"@nan0web/types": "*",
+		"@nan0web/ui-cli": "*",
+		"knip": "^5.85.0"
+	},
+	"peerDependencies": {
+		"@nan0web/db": "*"
+	}
+}

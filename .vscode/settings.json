@@ -1,0 +1,10 @@
+{
+	"javascript.validate.enable": false,
+	"typescript.validate.enable": false,
+	"typescript.suggest.enabled": false,
+	"javascript.suggest.enabled": false,
+	"js/ts.implicitProjectConfig.checkJs": false,
+	"files.associations": {
+		"*.nan0": "yaml"
+	}
+}
