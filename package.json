@@ -20,6 +20,7 @@
 		"knip": "knip --production",
 		"audit": "pnpm audit --prod || true",
 		"precommit": "npm test",
+		"release": "nan0release publish",
 		"play": "node play/main.js"
 	},
 	"exports": {
