@@ -43,7 +43,7 @@ Collects, aggregates, and reports metrics from `@nan0web/db` and other packages.
 
 ## Next
 
-- [ ] TEL-20: `npm publish` — actual release (requires manual approval/token)
+- [x] TEL-20: `npm publish` — actual release (completed)
 - [ ] TEL-21: Integration into `master-ide` or other NAN0 packages
 
 - Zero runtime deps (uses DB's existing `on()`/`emit()`)
